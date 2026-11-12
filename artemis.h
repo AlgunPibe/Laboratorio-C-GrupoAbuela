@@ -20,14 +20,14 @@ typedef struct {
 typedef struct {
     double v1;
     double y1;
-    double v2;        
-    double t2;       
-    double t_total;   
-    double hmax;      
-    double g_aceler;  
-    double g_sentida; 
-    int    puntaje;   
-    int    exito;     
+    double v2;
+    double t2;
+    double t_total;
+    double hmax;
+    double g_aceler;
+    double g_sentida;
+    int    puntaje;
+    int    exito;
 } Resultados;
 
 typedef struct {
