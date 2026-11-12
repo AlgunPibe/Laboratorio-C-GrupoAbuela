@@ -64,3 +64,10 @@ char leer_char(const char *msg, const char *permitidos)
         printf("%s", msg);
         leer_linea(buf, TAM_BUF);
         if (buf[0] != '\0\' && buf[1] == '\n') {
+c = (char)tolower((unsigned char)buf[0]);
+            if (strchr(permitidos, c) != NULL)
+                return c;
+        }
+        printf("  [Error] Opcion invalida. Opciones permitidas: %s\n", permitidos);
+    }
+}
