@@ -1,14 +1,14 @@
 #ifndef ARTEMIS_H
 #define ARTEMIS_H
 
-#define G            9.80
-#define LIMITE_G     4.0
+#define G 9.80
+#define LIMITE_G 4.0
 #define MAX_MISIONES 20
 
-#define A1_DEF  20.0
-#define T1_DEF  120.0
-#define A2_DEF  12.5
-#define H_DEF   160000.0
+#define A1_DEF 20.0
+#define T1_DEF 120.0
+#define A2_DEF 12.5
+#define H_DEF 160000.0
 
 typedef struct {
     double a1;
