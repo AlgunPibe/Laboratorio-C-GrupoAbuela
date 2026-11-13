@@ -14,21 +14,6 @@ static void mostrar_menu(void)
     printf(" 5. Salir\n");
 }
 
-static void pedir_parametros(Parametros *p)
-{
-    char usar_def = leer_char("Usar valores del enunciado? (s/n): ", "sn");
-
-    if (usar_def == 's') {
-        p->a1 = A1_DEF;  p->t1 = T1_DEF;
-        p->a2 = A2_DEF;  p->h  = H_DEF;
-        return;
-    }
-    p->a1 = leer_double("Aceleracion fase 1 a1 (m/s2) [1 - 100]: ", 1.0, 100.0);
-    p->t1 = leer_double("Tiempo de desacople t1 (s) [1 - 1000]: ", 1.0, 1000.0);
-    p->a2 = leer_double("Aceleracion fase 2 a2 (m/s2) [1 - 100]: ", 1.0, 100.0);
-    p->h  = leer_double("Altitud de apagado h (m) [1000 - 1000000]: ", 1000.0, 1000000.0);
-}
-
 int main(void)
 {
     Mision historial[MAX_MISIONES];
