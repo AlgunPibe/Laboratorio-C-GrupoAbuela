@@ -35,6 +35,7 @@ typedef struct {
     Resultados r;
 } Mision;
 
+void pedir_parametros(Parametros *p)
 int  calcular_mision(const Parametros *p, Resultados *r);
 void estado_en_tiempo(const Parametros *p, const Resultados *r, double t,
                       double *y, double *v, double *a, int *fase);
