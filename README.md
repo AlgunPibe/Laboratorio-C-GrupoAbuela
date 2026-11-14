@@ -29,19 +29,11 @@ La simulación paso a paso muestra una tabla con el tiempo, la altitud, la veloc
 Los datos se guardan en estructuras (`Parametros`, `Resultados` y `Mision`) que se pasan por puntero a las funciones de cálculo. Todas las entradas del usuario se validan en tipo y rango, por lo que el programa no se cierra ni entra en bucle infinito ante datos erróneos.
 
 Instrucciones claras de compilación y ejecución:
-...
-...
-...
-..
-..
-..
-..
-..
-..
+
 
 Registro de la Inteligencia Artificial
 La IA utilizada fue Claude:
 Para mejorar nuestro programa, verificar su exactitud y precision al momento de ejecutarse, cumpliendo con los requisitos necesarios, se realizaron consultas como
-*Revision de los archivos. MakeFile, Artemis.c y .h, Main, validación.c y .h y los demás archivos
-*Como compilar el trabajo
-*Una forma mas detallada de explicación en el readme, para que sea una explicación mas entendible
+°Revision de los archivos. MakeFile, Artemis.c y .h, Main, validación.c y .h y los demás archivos
+°Como compilar el trabajo
+°verificacion de que el trabajo este completo y cumpla con todas las consignas
