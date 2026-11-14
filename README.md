@@ -29,6 +29,7 @@ La simulación paso a paso muestra una tabla con el tiempo, la altitud, la veloc
 Los datos se guardan en estructuras (`Parametros`, `Resultados` y `Mision`) que se pasan por puntero a las funciones de cálculo. Todas las entradas del usuario se validan en tipo y rango, por lo que el programa no se cierra ni entra en bucle infinito ante datos erróneos.
 
 Instrucciones claras de compilación y ejecución
+
 Con makefile (linux, mac, github codespace):
 
 make
