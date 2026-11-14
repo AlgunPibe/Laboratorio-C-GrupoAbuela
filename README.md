@@ -28,8 +28,15 @@ Al crear una misión, el usuario ingresa los parámetros del lanzamiento (a1, t1
 La simulación paso a paso muestra una tabla con el tiempo, la altitud, la velocidad y la aceleración de la nave, marcando el despegue, el desacople de los SRB y el apagado de motores. El reporte final lista todas las misiones realizadas (hasta 20) con sus resultados.
 Los datos se guardan en estructuras (`Parametros`, `Resultados` y `Mision`) que se pasan por puntero a las funciones de cálculo. Todas las entradas del usuario se validan en tipo y rango, por lo que el programa no se cierra ni entra en bucle infinito ante datos erróneos.
 
-Instrucciones claras de compilación y ejecución:
+Instrucciones claras de compilación y ejecución
+Con makefile (linux, mac, github codespace):
 
+make
+./artemis
+
+Sin makefile (sistema con gcc):
+
+gcc -Wall -Wextra -std=c99 -o artemis main.c artemis.c validaciones.c -lm
 
 Registro de la Inteligencia Artificial
 La IA utilizada fue Claude:
