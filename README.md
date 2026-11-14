@@ -32,6 +32,7 @@ Instrucciones claras de compilación y ejecución
 Con makefile (linux, mac, github codespace):
 
 make
+
 ./artemis
 
 Sin makefile (sistema con gcc):
