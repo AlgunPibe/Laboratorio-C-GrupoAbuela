@@ -26,3 +26,21 @@ El programa se ejecuta por consola y arranca con un menú principal de cinco opc
 Al crear una misión, el usuario ingresa los parámetros del lanzamiento (a1, t1, a2 y h) o elige usar los valores del enunciado. El programa calcula las dos fases del vuelo con las ecuaciones del MRUV, obtiene las velocidades, la altitud al desacople de los SRB y la altitud máxima en caída libre, y evalúa si la tripulación soporta la aceleración. El límite es de 4 g sentidos: si lo supera, la misión es fallida; si no, es exitosa y recibe un puntaje de 0 a 100 según qué tan suave fue el ascenso.
 La simulación paso a paso muestra una tabla con el tiempo, la altitud, la velocidad y la aceleración de la nave, marcando el despegue, el desacople de los SRB y el apagado de motores. El reporte final lista todas las misiones realizadas (hasta 20) con sus resultados.
 Los datos se guardan en estructuras (`Parametros`, `Resultados` y `Mision`) que se pasan por puntero a las funciones de cálculo. Todas las entradas del usuario se validan en tipo y rango, por lo que el programa no se cierra ni entra en bucle infinito ante datos erróneos.
+
+Instrucciones claras de compilación y ejecución:
+...
+...
+...
+..
+..
+..
+..
+..
+..
+
+Registro de la Inteligencia Artificial
+La IA utilizada fue Claude:
+Para mejorar nuestro programa, verificar su exactitud y precision al momento de ejecutarse, cumpliendo con los requisitos necesarios, se realizaron consultas como
+*Revision de los archivos. MakeFile, Artemis.c y .h, Main, validación.c y .h y los demás archivos
+*Como compilar el trabajo
+*Una forma mas detallada de explicación en el readme, para que sea una explicación mas entendible
