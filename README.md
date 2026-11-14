@@ -1,11 +1,12 @@
 # Laboratorio-C-GrupoAbuela
+Trabajo Final Integrador 
+Escenario 1: Ascenso y Propulsión con el SLS (MRUV y Desprendimiento)
 Comisión 1.3/C
 Arroyo Federico 31790 Arroyo.Federico
 Bilunyk Ivan 31247 animation3000
 Calabroni Renzo 31692 Renzo
 Roman Xiomara 31524 xioroman4554
 Valdez Estrella 31369 Estrellavald
-Escenario 1: Ascenso y Propulsión con el SLS (MRUV y Desprendimiento)
 
 Descripcion del escenario:
 Durante el despegue desde el Centro Espacial Kennedy, el cohete SLS eleva a la nave Orion partiendo del reposo (v0 = 0 m/s, y0 = 0 m) en un ascenso vertical rectilíneo, sin resistencia del aire. El vuelo tiene dos fases, ambas con aceleración constante:
